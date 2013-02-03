@@ -16,21 +16,21 @@ img{
 	margin-right: auto;
 	padding: 0px;
 	border-color:#506ca3;
-	border-width: 4px;
+	border-width: 2px;
 	border-style: solid;
-	border-radius:20px;
+	border-radius:8px;
 }
 .title,.links,.text{
 	background-color: #c7cde1;
-	padding: 20px;
-	margin: 50px;
+	padding: 8px;
+	margin: 15px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	width: 90%;
 	border-color: #506ca3;
-	border-width: 4px;
+	border-width: 2px;
 	border-style: solid;
-	border-radius: 20px;
+	border-radius: 8px;
 	color: #202b46;
 }
 
@@ -40,10 +40,10 @@ img{
 
 .list{
 	background-color: #c7cde1;
-	padding: 20px;
+	padding: 8px;
 	border-color: #506ca3;
-	border-width: 4px;
-	border-radius: 20px;
+	border-width: 2px;
+	border-radius: 8px;
 	border-style: solid;
 	width: 90%;
 	margin-left: auto;
