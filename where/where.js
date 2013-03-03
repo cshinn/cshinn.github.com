@@ -45,6 +45,7 @@ function renderMap()
 		title: "Here I Am!",
 		icon: "symbol-MBTA1.png"
 		//size: 20
+	});
 	marker.setMap(map);
 
 	// Open info window on click of marker
