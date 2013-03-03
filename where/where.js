@@ -3,7 +3,7 @@ var myLng = 0;
 var request = new XMLHttpRequest();
 var me = new google.maps.LatLng(myLat, myLng);
 var myOptions = {
-			zoom: 13, // The larger the zoom number, the bigger the zoom
+			zoom: 15
 			center: me,
 			mapTypeId: google.maps.MapTypeId.ROADMAP
 		};
@@ -42,7 +42,8 @@ function renderMap()
 	// Create a marker
 	marker = new google.maps.Marker({
 		position: me,
-		title: "Here I Am!"
+		title: "Here I Am!",
+		icon: "MBTA-Logo.jpg",
 	});
 	marker.setMap(map);
 
