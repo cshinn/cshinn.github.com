@@ -3,7 +3,7 @@ var myLng = 0;
 var request = new XMLHttpRequest();
 var me = new google.maps.LatLng(myLat, myLng);
 var myOptions = {
-			zoom: 15
+			zoom: 15,
 			center: me,
 			mapTypeId: google.maps.MapTypeId.ROADMAP
 		};
