@@ -1,6 +1,6 @@
 var myLat = 0;
 var myLng = 0;
-var request = new XMLHttpRequest();
+var grequest = new XMLHttpRequest();
 var me = new google.maps.LatLng(myLat, myLng);
 var myOptions = {
 			zoom: 15,
@@ -43,8 +43,8 @@ function renderMap()
 	marker = new google.maps.Marker({
 		position: me,
 		title: "Here I Am!",
-		icon: "MBTA-Logo.jpg",
-	});
+		icon: "symbol-MBTA1.png",
+		size:
 	marker.setMap(map);
 
 	// Open info window on click of marker
@@ -54,13 +54,13 @@ function renderMap()
 	});
 
 	// Calling Google Places API
-	var request = {
+	var grequest = {
 		location: me,
 		radius: '500',
 		types: ['food']
 	};
 	service = new google.maps.places.PlacesService(map);
-	service.search(request, callback);
+	service.search(grequest, callback);
 }
 
 // Taken from http://code.google.com/apis/maps/documentation/javascript/places.html
