@@ -43,7 +43,7 @@ function renderMap()
 	marker = new google.maps.Marker({
 		position: me,
 		title: "Here I Am!",
-		icon: "symbol-MBTA1.png",
+		icon: "symbol-MBTA1.png"
 		//size: 20
 	marker.setMap(map);
 
